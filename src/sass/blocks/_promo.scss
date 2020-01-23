@@ -9,7 +9,7 @@
         align-items: flex-end;
     }
     &__header {
-        color: #ffffff;
+        color: $lightfont;
         font-size: 42px;
         font-weight: 700;
         text-transform: uppercase;
@@ -17,7 +17,7 @@
     }
     &__subheader {
         margin-top: 17px;
-        color: #ffffff;
+        color: $lightfont;
         font-size: 24px;
         font-weight: 500;
         text-transform: uppercase;
@@ -32,7 +32,7 @@
     &__icon {
         width: 108px;
         text-align: center;
-        color: #ffffff;
+        color: $lightfont;
         font-size: 14px;
         font-weight: 500;
         img {
@@ -43,11 +43,11 @@
     }
     &__link {
         margin-top: 18px;
-        color: #ffffff;
+        color: $lightfont;
         font-size: 16px;
         font-weight: 500;
         a {
-            color: #ffffff;
+            color: $lightfont;
             text-transform: uppercase;
             text-decoration: underline;
         }
