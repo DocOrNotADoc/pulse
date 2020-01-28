@@ -1,0 +1,23 @@
+@media (max-width: 1200px) {
+    .button {
+        font-size: 11px;
+        width: 136px;
+        height: 26px;
+        background-color: orange;
+        &_main {
+            margin: 57px;
+            width: 270px;
+            height: 44px;
+            font-size: 14px;
+        }
+    }
+}
+@media (max-width: 991px) {
+
+}
+@media (max-width: 767px) {
+
+}
+@media (max-width: 575px) {
+
+}
