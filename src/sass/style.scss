@@ -7,9 +7,10 @@
     max-width: 950px;
     margin: 0 auto;
 }
+
 @import "./blocks/promo";
 @import "./media/promo-media";
 @import "./blocks/header";
 @import "./media/header-media";
-@import "./blocks/buttons";
+@import "./blocks/btn";
 @import "./media/btn-media";
