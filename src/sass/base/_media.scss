@@ -1,52 +1,5 @@
 @media (max-width: 1200px) {
-    .header {
-        &__logo {
-            width: 220px;
-        }
-        &__official {
-            font-size: 11px;
-            span {
-                font-size: 16px;
-            }
-        }
-        &__phone {
-            font-size: 16px;
-        }
-    }
-    .button {
-        font-size: 11px;
-        width: 136px;
-        height: 26px;
-        background-color: orange;
-        &_main {
-            margin: 57px;
-            width: 270px;
-            height: 44px;
-            font-size: 14px;
-        }
-    }
-    .promo {
-        &__wrapper {
-            margin-top: 80px;
-        }
-        &__header {
-            font-size: 40px;
-        }
-        &__subheader {
-            margin-top: 14px;
-            font-size: 22px;
-        }
-        &__icons {
-            margin-top: 52px;
-        }
-        &__icon {
-            font-size: 13px;
-        }
-        &__link {
-            margin-top: 13px;
-            font-size: 14px;
-        }
-    }
+
 }
 @media (max-width: 991px) {
 

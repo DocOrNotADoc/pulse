@@ -2,6 +2,7 @@
     max-height: 650px;
     padding: 21px 0 93px 0;
     background: url(../../img/bg/bg1@1X.png) center (center/cover) no-repeat;
+    color: $lightFont;
     &__wrapper {
         margin-top: 90px;
         display: flex;
@@ -9,7 +10,6 @@
         align-items: flex-end;
     }
     &__ttl {
-        color: $lightfont;
         font-size: 42px;
         font-weight: 700;
         text-transform: uppercase;
@@ -17,7 +17,6 @@
     }
     &__subttl {
         margin-top: 17px;
-        color: $lightfont;
         font-size: 24px;
         font-weight: 500;
         text-transform: uppercase;
@@ -32,7 +31,6 @@
     &__icon {
         width: 108px;
         text-align: center;
-        color: $lightfont;
         font-size: 14px; 
         font-weight: 500;
         img {
@@ -43,11 +41,10 @@
     }
     &__link {
         margin-top: 18px;
-        color: $lightfont;
         font-size: 16px;
         font-weight: 500;
         a {
-            color: $lightfont;
+            color: $lightFont;
             text-transform: uppercase;
             text-decoration: underline;
         }

@@ -1,0 +1,33 @@
+.adventages {
+    color: $darkFont;
+    text-align: center;    
+    background-color: #f6f6f6;
+    &_ttl {
+        padding-top: 70px;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    &_wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__card {
+        margin-top: 65px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 300px;
+    }
+    &__img {
+        width: 70px;
+        height: 70px;
+        margin: 0 auto;
+    }
+    &__tesis {
+
+    }
+    &__descr {
+
+    }
+}
