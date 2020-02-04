@@ -26,7 +26,30 @@
     }
 }
 @media (max-width: 767px) {
-
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        &__logo {
+            margin-top: 5px;
+            width: 240px;
+        }
+        .tab-hidden {
+            display: none;
+        }
+        &__official {
+            margin: 0 auto;
+            text-align: right;
+            padding-right: 70px;
+            margin-top: 170px;
+            font-size: 20px;
+        }
+        &__phone {
+            font-size: 18px;
+        }
+        .lg-hidden {
+            display: block;
+        }
+    }
 }
 @media (max-width: 575px) {
 

@@ -25,7 +25,17 @@
     }
 }
 @media (max-width: 767px) {
-
+    .button {
+        font-size: 12px;
+        width: 150px;
+        height: 30px;
+        &_main {
+            margin-top: 80px;
+            width: 270px;
+            height: 42px;
+            font-size: 15px;
+        }
+    }
 }
 @media (max-width: 575px) {
 
