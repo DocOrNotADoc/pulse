@@ -1,7 +1,7 @@
 @media (max-width: 1200px) {
     .promo {
         min-height: 542px;
-        &__wrapper {
+        &_wrapper {
             margin-top: 75px;
         }
         &__ttl {
@@ -28,7 +28,7 @@
 @media (max-width: 991px) {
     .promo {
         min-height: 443px;
-        &__wrapper {
+        &_wrapper {
             margin-top: 50px;
             padding-right: 30px;
         }
@@ -54,18 +54,18 @@
 }
 @media (max-width: 767px) {
     .promo {
-        &__wrapper {
-            margin-top: 170px;
+        &_wrapper {
+            margin-top: 130px;
             padding-right: 50px;
         }
         &__ttl {
-            margin-top: 40px;
-            padding-right: 0;
-            font-size: 32px;
+            margin-top: 70px;
+            padding-right: 0px;
+            font-size: 33px;
         }
         &__subttl {
-            padding-right: 0;
-            font-size: 16px;
+            padding-right: 0px;
+            font-size: 17px;
             line-height: 27px;
         }
         &__icons {
@@ -81,5 +81,30 @@
     }
 }
 @media (max-width: 575px) {
-
+    .promo {
+        padding: 20px;
+        &_wrapper {
+            margin-top: 70px;
+            padding: 0px;
+            align-items: center;
+        }
+        &__ttl {
+            margin-top: 0px;
+            font-size: 22px;
+        }
+        &__subttl {
+            font-size: 11px;
+            line-height: 20px;
+        }
+        &__icons {
+            margin-top: 30px;
+            width: 280px;
+        }
+        &__icon {
+            width: 100px;
+        }
+        &__link {
+            margin-top: 13px;
+        }
+    }
 }

@@ -31,7 +31,7 @@
         justify-content: center;
         &__logo {
             margin-top: 5px;
-            width: 240px;
+            width: 250px;
         }
         .tab-hidden {
             display: none;
@@ -39,9 +39,12 @@
         &__official {
             margin: 0 auto;
             text-align: right;
-            padding-right: 70px;
-            margin-top: 170px;
-            font-size: 20px;
+            padding-right: 40px;
+            margin-top: 140px;
+            font-size: 18px;
+            span {
+                font-size: 26px;
+            }
         }
         &__phone {
             font-size: 18px;
@@ -52,5 +55,34 @@
     }
 }
 @media (max-width: 575px) {
-
+    .header {
+        padding: 0 20px;
+        &_wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__logo {
+            width: 230px;
+            
+        }
+        .tab-hidden {
+            display: block;
+        }
+        &__official {
+            text-align: center;
+            padding-right: 0;
+            margin-top: 30px;
+            font-size: 13px;
+            span {
+                font-size: 20px;
+            }
+        }
+        &__phone {
+            margin-top: 40px;
+            font-size: 17px;
+        }
+        .lg-hidden {
+            display: none;
+        }
+    }
 }

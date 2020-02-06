@@ -26,8 +26,8 @@
 }
 @media (max-width: 767px) {
     .button {
-        font-size: 12px;
-        width: 150px;
+        font-size: 13px;
+        width: 156px;
         height: 30px;
         &_main {
             margin-top: 80px;
@@ -38,5 +38,17 @@
     }
 }
 @media (max-width: 575px) {
-
+    .button {
+        margin-top: 5px;
+        font-size: 12px;
+        width: 146px;
+        height: 24px;
+        margin: 0 auto;
+        &_main {
+            margin-top: 30px;
+            width: 210px;
+            height: 37px;
+            font-size: 13px;
+        }
+    }
 }
