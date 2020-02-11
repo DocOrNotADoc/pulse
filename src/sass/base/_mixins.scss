@@ -1,8 +1,8 @@
-@mixin btn {
+@mixin button {
     border: none;
     border-radius: 5px;
     color: $lightFont;
     background-color: $mainColor;
     font-weight: 500;
     text-transform: uppercase;
-}
+};

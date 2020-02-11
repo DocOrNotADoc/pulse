@@ -1,9 +1,6 @@
 @media (max-width: 1200px) {
     .adventages {
         padding: 60px 0 57px 0;
-        &__ttl {
-            font-size: 25px;
-        }
         &__card {
             margin-top: 55px;
         }
@@ -12,9 +9,6 @@
 @media (max-width: 991px) {
     .adventages {
         padding: 50px 30px 45px 30px;
-        &__ttl {
-            font-size: 23px;
-        }
         &__card {
             margin-top: 42px;
             width: 220px;
@@ -30,9 +24,6 @@
 }
 @media (max-width: 767px) {
     .adventages {
-        &__ttl {
-            font-size: 30px;
-        }
         &__wrapper {
             flex-direction: column;
             margin-top: 25px;
@@ -54,10 +45,6 @@
 @media (max-width: 575px) {
     .adventages {
         padding: 55px 0 45px 0;
-        &__ttl {
-            font-size: 20px;
-            line-height: 0;
-        }
         &__card {
             margin-top: 35px;
             width: 250px;
