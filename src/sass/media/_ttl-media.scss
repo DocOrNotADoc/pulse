@@ -1,21 +1,70 @@
 @media (max-width: 1200px) {
     .ttl {
         font-size: 25px;
+        &_promo {
+            font-size: 30px;
+            padding-right: 15px;
+        }
+        &_promo-sub {
+            margin-top: 0px;
+            font-size: 16px;
+            padding-right: 15px;
+        }
+        &_left {
+
+        }
     }
 }
 @media (max-width: 991px) {
     .ttl {
         font-size: 23px;
+        &_promo {
+            font-size: 25px;
+            line-height: 20px;
+            align-items: center;
+        }
+        &_promo-sub {
+            margin-top: 0px;
+            font-size: 14px;
+            align-items: center;
+        }
+        &_left {
+
+        }
     }
 }
 @media (max-width: 767px) {
     .ttl {
         font-size: 30px;
+        &_promo {
+            margin-top: 70px;
+            padding-right: 0px;
+            font-size: 33px;
+        }
+        &_promo-sub {
+            padding-right: 0px;
+            font-size: 17px;
+            line-height: 27px;
+        }
+        &_left {
+
+        }
     }
 }
 @media (max-width: 575px) {
     .ttl {
         font-size: 20px;
         line-height: 0;
+        &_promo {
+            margin-top: 0px;
+            font-size: 22px;
+        }
+        &_promo-sub {
+            font-size: 11px;
+            line-height: 20px;
+        }
+        &_left {
+
+        }
     }
 }

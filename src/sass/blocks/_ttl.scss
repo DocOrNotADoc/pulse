@@ -4,4 +4,22 @@
     font-weight: 700;
     font-size: 30px;
     color: $darkFont;
+    &_promo {
+        color: $lightFont;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 17px;
+    }
+    &_promo-sub {
+        color: $lightFont;
+        margin-top: 17px;
+        font-size: 24px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    &_left {
+        text-align-last: left;
+        color: $lightFont;
+        font-size: 36px;
+    }
 }
