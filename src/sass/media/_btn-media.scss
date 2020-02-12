@@ -9,6 +9,9 @@
             height: 42px;
             font-size: 15px;
         }
+        &_submit {
+
+        }
     }
 }
 @media (max-width: 991px) {
@@ -22,6 +25,9 @@
             height: 35px;
             font-size: 14px;
         }
+        &_submit {
+            
+        }
     }
 }
 @media (max-width: 767px) {
@@ -34,6 +40,9 @@
             width: 270px;
             height: 42px;
             font-size: 15px;
+        }
+        &_submit {
+            
         }
     }
 }
@@ -49,6 +58,9 @@
             width: 210px;
             height: 37px;
             font-size: 13px;
+        }
+        &_submit {
+            
         }
     }
 }

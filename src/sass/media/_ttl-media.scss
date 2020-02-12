@@ -11,7 +11,7 @@
             padding-right: 15px;
         }
         &_left {
-
+            font-size: 29px;
         }
     }
 }
@@ -24,12 +24,11 @@
             align-items: center;
         }
         &_promo-sub {
-            margin-top: 0px;
             font-size: 14px;
             align-items: center;
         }
         &_left {
-
+            font-size: 26px;
         }
     }
 }
@@ -42,19 +41,18 @@
             font-size: 33px;
         }
         &_promo-sub {
-            padding-right: 0px;
             font-size: 17px;
             line-height: 27px;
         }
         &_left {
-
+            text-align: center;
+            font-size: 28px;
         }
     }
 }
 @media (max-width: 575px) {
     .ttl {
         font-size: 20px;
-        line-height: 0;
         &_promo {
             margin-top: 0px;
             font-size: 22px;
@@ -64,7 +62,7 @@
             line-height: 20px;
         }
         &_left {
-
+            font-size: 21px;
         }
     }
 }
