@@ -38,9 +38,7 @@ const slider = tns({
     container: '.carousel__inner',
     items: 1,
     slideBy: 'page',
-    autoplay: false,
     controls: false,
-    nav: false,
 });
 
 document.querySelector('.prev').addEventListener('click', function () {
@@ -49,3 +47,25 @@ document.querySelector('.prev').addEventListener('click', function () {
 document.querySelector('.next').addEventListener('click', function () {
     slider.goTo('next');
 });
+
+// Если подключить для планшетов и мобилок dots, как сделать, чтобы они добавлялись при добавлении картинок?
+// И как сделать, чтобы они отмечались соответственно перелистываемому слайду?
+// В принципе, в Slick Это делается очень просто. Но я оставил в Tini slider.
+// Ештш мне нравится больше, потому, что без дополнительных библиотек jquery.
+// кроме того, это учебный вариант, и тут можно попробовать 2 типа.Табы пусть уж на JQuery, а карусель на tini slider.
+// В идеале же, сделать всё на чистом JS, без всех этих "костыльных" библиотек
+// Кроме того, точки не обязательны.
+// p.s. стилизация точек на заработалаю Зараза. Ошибку не нашёл
+// Как простой вариант, сделаю для планетов и мобилок авто-перелистывание. Высота не меняется, и страница ниде слайдера прыгать не танет. Норм.
+// .tns-nav {
+//     button {
+//         background-color: mainColor;
+//     }
+//     .tns-nav-active {
+//         background-color: #fff;
+//         &:hover {
+//             box-shadow: 1px 1px 5px $mainColor;
+//             border: none;
+//         }
+//     }
+// }

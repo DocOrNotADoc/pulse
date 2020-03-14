@@ -1,0 +1,42 @@
+@media (max-width: 1200px) {
+    .carousel {
+        .prev, .next {
+            left: -22px;
+            img {
+                width: 31px;
+                height: 50px;
+            }
+        }
+        .next {
+            right: -22px;
+            left: auto;
+        }
+    } 
+}
+@media (max-width: 991px) {
+    .carousel {
+        .prev, .next {
+            left: -2px;
+            img {
+                width: 31px;
+                height: 50px;
+            }
+        }
+        .next {
+            right: -2px;
+            left: auto;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .carousel {
+        .prev, .next {
+            display: none;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .carousel {
+
+    }
+}
