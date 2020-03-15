@@ -35,19 +35,21 @@
 }
 @media (max-width: 767px) {
     .promo {
+        padding: 21px 0 45px 0;
         &_wrapper {
             margin-top: 130px;
-            padding-right: 50px;
+            padding: 0;
+            align-items: center;
         }
         &__icons {
-            margin-top: 70px;
+            margin-top: 50px;
         }
         &__icon {
-            font-size: 14px;
+            font-size: 16px;
         }
         &__link {
             margin-top: 18px;
-            font-size: 14px;
+            font-size: 16px;
         }
     }
 }
@@ -56,7 +58,6 @@
         padding: 20px;
         &_wrapper {
             margin-top: 70px;
-            padding: 0px;
             align-items: center;
         }
         &__icons {

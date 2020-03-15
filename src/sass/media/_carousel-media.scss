@@ -1,42 +1,38 @@
 @media (max-width: 1200px) {
-    .carousel {
-        .prev, .next {
-            left: -22px;
-            img {
-                width: 31px;
-                height: 50px;
-            }
-        }
-        .next {
-            right: -22px;
-            left: auto;
-        }
-    } 
+
 }
-@media (max-width: 991px) {
+@media (max-width: 886px) {
     .carousel {
-        .prev, .next {
-            left: -2px;
+        .slick-prev, .slick-next {
+            left: -39px;
             img {
                 width: 31px;
                 height: 50px;
             }
         }
-        .next {
-            right: -2px;
+        .slick-next {
+            right: -39px;
             left: auto;
         }
     }
 }
-@media (max-width: 767px) {
+@media (max-width: 818px) {
     .carousel {
-        .prev, .next {
-            display: none;
+        .slick-prev, .slick-next {
+            left: -12px;
+            img {
+                width: 31px;
+                height: 50px;
+            }
+        }
+        .slick-next {
+            right: -12px;
+            left: auto;
         }
     }
 }
 @media (max-width: 575px) {
     .carousel {
-
+        padding: 81px 0 61px 0;
     }
 }
