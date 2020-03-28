@@ -1,0 +1,15 @@
+//mobile, min - 320px
+@media (max-width: 575px) {
+    .modal {
+        &__close {
+            top: 5px;
+            right: 3px;
+        }
+    }
+}
+@media (max-width: 381px) {
+    .modal {
+        width: 100%;
+        padding: 30px 10px;
+    }
+}
