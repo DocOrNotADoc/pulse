@@ -38,6 +38,14 @@
         font-weight: 500;
         text-align: center;
     }
+    .error {
+        border: 1px solid red;
+    }
+    label.error {
+        border: none;
+        text-align: center;
+        margin-bottom: 15px;
+    }
 }
 
 #consult, #order, #TY {
