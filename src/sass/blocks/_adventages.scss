@@ -15,6 +15,12 @@
         width: 70px;
         height: 70px;
         margin: 0 auto;
+        &_animated {
+            animation: heartbeat 1.2s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
     }
     &__tesis {
         margin-top: 38px;
