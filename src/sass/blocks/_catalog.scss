@@ -116,9 +116,11 @@
             margin-right: 0px;
             transform: translateX(-100%);
             transition: 0.5s all;
+            padding-right: 20px;
             &_active {
                 transform: translateX(0%);
                 margin-right: 20px;
+                padding-right: 0;
             }
         }
         &__list {
@@ -130,25 +132,29 @@
             transition: 0.5s all;
             padding-left: 19px;
             margin-bottom: 0;
-            list-style-type: none;
             &_active {
                 transform: translateX(-100%);
                 margin-left: 0px;
             }
-            li {
-                position: relative;
-                color: #555555;
-                font-size: 14px;
-                font-weight: 300;
-                margin-bottom: 20px;
-                &::before {
-                    content: '';
-                    position: absolute;
-                    width: 5px;
-                    height: 5px;
-                    background-color: $mainColor;
-                    left: -14px;
-                    top: 7px;
+            ul {
+                list-style-type: none;
+                margin-left: 0;
+                padding-left: 0;
+                li {
+                    position: relative;
+                    color: #555555;
+                    font-size: 14px;
+                    font-weight: 300;
+                    margin-bottom: 20px;
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        width: 5px;
+                        height: 5px;
+                        background-color: $mainColor;
+                        left: -14px;
+                        top: 7px;
+                    }
                 }
             }
         }
@@ -156,7 +162,7 @@
             position: absolute;
             bottom: 0;
             left: 50%;
-            transform: translateX(calc(-50% - 19px));
+            transform: translateX(calc(-50% - 10px));
             display: block;
             color: $mainColor;
             font-size: 14px;
