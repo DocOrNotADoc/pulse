@@ -1,6 +1,6 @@
 .carousel {
-    padding: 81px 0;
     max-width: 100%;
+    padding: 81px 0;
     &__inner {
         position: relative;
         max-width: 750px;
@@ -13,10 +13,10 @@
     .slick-prev, .slick-next {
         position: absolute;
         top: 50%;
-        transform: translateY(-50%);
         left: -66px;
         border: none;
         background-color: rgba(255, 255, 255, 0.0);
+        transform: translateY(-50%);
         z-index: 3;
         img {
             width: 31px;
@@ -29,18 +29,18 @@
     }
     .slick-dots {
         display: flex;
+        padding: 0;
         justify-content: center;
         align-items: center;
-        padding: 0;
         li {
             list-style-type: none;
         }
         button {
-            background-color: $mainColor;
-            border: none;
-            margin: 2px;
             width: 12px;
             height: 4px;
+            margin: 2px;
+            border: none;
+            background-color: $mainColor;
             font-size: 0;
         }
     }

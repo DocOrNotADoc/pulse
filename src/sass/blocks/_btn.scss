@@ -1,12 +1,17 @@
 .btn {
-    @include button;
     width: 150px;
     height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: $mainColor;
+    font-weight: 500;
     font-size: 12px;
+    color: $lightFont;
+    text-transform: uppercase;
     &_main {
-        margin-top: 67px;
         width: 300px;
         height: 50px;
+        margin-top: 67px;
         font-size: 16px;
     }
     &_submit {

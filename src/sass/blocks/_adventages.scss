@@ -1,15 +1,15 @@
 .adventages {
-    color: $darkFont;
-    text-align: center;    
-    background-color: #f6f6f6;
     padding: 70px 0 78px 0;
+    background-color: #f6f6f6;
+    color: $darkFont;
+    text-align: center;
     &__wrapper {
         display: flex;
         justify-content: space-between;
     }
     &__card {
-        margin-top: 65px;
         width: 247px;
+        margin-top: 65px;
     }
     &__img {
         width: 70px;

@@ -2,13 +2,13 @@
     .ttl {
         font-size: 25px;
         &_promo {
-            font-size: 30px;
             padding-right: 15px;
+            font-size: 30px;
         }
         &_promo-sub {
             margin-top: 0px;
-            font-size: 16px;
             padding-right: 15px;
+            font-size: 16px;
         }
         &_left {
             font-size: 29px;
@@ -19,13 +19,13 @@
     .ttl {
         font-size: 23px;
         &_promo {
+            align-items: center;
             font-size: 25px;
             line-height: 20px;
-            align-items: center;
         }
         &_promo-sub {
-            font-size: 14px;
             align-items: center;
+            font-size: 14px;
         }
         &_left {
             font-size: 26px;

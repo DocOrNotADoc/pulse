@@ -14,11 +14,11 @@
         }
     }
     &__official {
-        color: $lightFont;
+        margin-right: 50px;
         font-size: 12px;
         font-weight: 500;
+        color: $lightFont;
         text-align: center;
-        margin-right: 50px;
         span {
             display: block;
             font-size: 18px;
@@ -26,9 +26,9 @@
     }
     &__phone {
         display: block;
-        color: $lightFont;
         font-size: 18px;
         font-weight: 700;
+        color: $lightFont;
         &:hover {
             color: $lightFont;
             text-decoration: none;
