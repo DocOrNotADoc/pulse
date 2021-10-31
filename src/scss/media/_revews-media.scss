@@ -1,0 +1,105 @@
+@media (max-width: 1200px) {
+    .revews {
+        &__card {
+            margin-top: 55px;
+        }
+        img {
+            width: 145px;
+            height: 145px;
+            margin-right: 47px;
+            margin-left: 20px;
+        }
+        &__text {
+            margin-bottom: 30px;
+        }
+        &__name {
+            font-size: 16px;
+        }
+        &__expirience {
+            font-size: 11px;
+        }
+        &__descr {
+            font-size: 14px;
+        }
+    }
+}
+@media (max-width: 991px) {
+    .revews {
+        &__card {
+            margin-top: 45px;
+        }
+        img {
+            width: 135px;
+            height: 135px;
+            margin-right: 37px;
+            margin-left: 36px;
+        }
+        &__text {
+            margin-bottom: 25px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .revews {
+        &__card {
+            margin-top: 40px;
+        }
+        &__img {
+            width: 185px;
+        }
+        img {
+            width: 135px;
+            height: 135px;
+            margin-top: 25px;
+            margin-left: 25px;
+        }
+        &__text {
+            margin-bottom: 30px;
+        }
+        &__name {
+            margin-top: 10px;
+            font-size: 19px;
+        }
+        &__expirience {
+            font-size: 14px;
+        }
+        &__descr {
+            padding-right: 15px;
+            font-size: 16px;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .revews {
+        &__card {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__img {
+            width: 140px;
+        }
+        img {
+            width: 140px;
+            height: 140px;
+            margin-right: 0;
+            margin-left: 0;
+        }
+        &__text {
+            width: 300px;
+            margin-bottom: 30px;
+        }
+        &__name {
+            margin-top: 15px;
+            font-size: 18px;
+            text-align: center;
+        }
+        &__expirience {
+            font-size: 13px;
+            text-align: center;
+        }
+        &__descr {
+            margin-top: 10px;
+            padding: 0;
+        }
+    }
+}

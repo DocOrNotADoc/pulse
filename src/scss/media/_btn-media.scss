@@ -1,0 +1,31 @@
+// @media (max-width: 1200px) {
+//     .btn {
+//         
+//         &_main {
+//             
+//         }
+//     }
+// }
+// @media (max-width: 991px) {
+//     .btn {
+//         
+//         &_main {
+//             
+//         }
+//     }
+// }
+// @media (max-width: 767px) {
+//     .btn {
+//         
+//         &_main {
+//             
+//         }
+//     }
+// }
+@media (max-width: 575px) {
+    .btn {
+        &_main {
+            margin-top: 25px;
+        }
+    }
+}
